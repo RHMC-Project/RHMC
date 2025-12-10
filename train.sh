@@ -1,0 +1,1 @@
+nohup  python train.py --config "/home/##config.yaml"  > trian_log.txt 2>&1 &

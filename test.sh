@@ -1,0 +1,1 @@
+nohup  python test.py --config "/home/##config.yaml"  > test_log.txt 2>&1 &
