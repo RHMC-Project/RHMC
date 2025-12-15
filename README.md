@@ -10,12 +10,6 @@
   <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure2.png">
 </p>
 
-@inproceedings{Lastname_2025_RHMC,
-  title = {RHMC: Region-Aware Hybrid Mamba-CNN with Symlet Transform for Face Super-Resolution},
-  author = {Author List (Please replace with actual authors)},
-  booktitle = {Conference or Journal Name},
-  year = {2025},
-}
 
 ## 🚀 Abstract
 
