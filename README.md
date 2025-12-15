@@ -47,7 +47,6 @@ The code includes scripts for:
 
 ---
 
-## 📁 Directory Structure (Brief)
 
 
 
