@@ -1,13 +1,13 @@
 # RHMC: Region-Aware Hybrid Mamba-CNN with Symlet Transform for Face Super-Resolution
 
-## 🖼️ Architecture Visualization (Replace with your paper's main figure)
+## 🖼️ Architecture Visualization 
 
 <p align="center">
-  <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure1.pdf">
+  <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure1.png">
 </p>
 
 <p align="center">
-  <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure2.pdf">
+  <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure2.png">
 </p>
 
 @inproceedings{Lastname_2025_RHMC,
