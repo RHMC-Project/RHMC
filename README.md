@@ -37,7 +37,7 @@ This repository provides the official PyTorch implementation of the **RHMC** mod
 
 The code includes scripts for:
 * Model training and testing.
-* Evaluation using common metrics (**PSNR, SSIM, LPIPS**，VIF).
+* Evaluation using common metrics (**PSNR, SSIM, LPIPS, VIF**).
 
 ## 💡 Key Contributions
 
