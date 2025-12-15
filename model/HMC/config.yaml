@@ -1,0 +1,71 @@
+train:
+  isTrain: true
+  gpus: 2
+  
+  print_freq: 100
+  save_latest_freq: 2000
+  save_epoch_freq: 10
+  total_epochs: 200
+  resume_epoch: 0
+  resume_iter: 0
+  resume_model_path: ''
+  lr: 0.0004
+  beta1: 0.9
+  beta2: 0.999
+  scale_factor: 8
+  load_size: 128
+  max_dataset_size: 200000
+  num_threads: 8
+  serial_batches: True
+  
+  dataroot: /data/###/celeba # train dataset path
+  codepath: /home/##/FSR/model  # base project path
+  dataset_name: celeba
+  batch_size: 4
+  stage1_epochs: 200    
+  
+  
+  
+  
+  exp_name: &exp_name 'SHMC' # name of the experiment
+  hyperparameters:  &hyperparameters # New field for hyperparameters
+    embed_dim: 180
+    img_size: 16 # gs
+    
+
+test:
+  isTrain: false
+  load_size: 128
+  output_nc: 3 #
+  batch_size: 1
+  max_dataset_size: 200000
+  num_threads: 0
+  no_flip: true
+  preprocess: 'none'
+  serial_batches: true
+  exp_name: *exp_name
+
+  dataset_name: single
+  
+  dataroot: /home/##/datasets/helen/LR
+  HRdataroot: /home/##/helen/HR
+  experiment_path: '/home/##' 
+  pretrain_model_path: '/home/##'
+  save_dir:  ''
+  hyperparameters:  # New field for hyperparameters
+    <<: *hyperparameters
+
+
+validate:
+  isTrain: false
+  load_size: 128
+  batch_size: 1
+  num_threads: 8
+  serial_batches: true
+
+  dateset_name: helen
+  dataroot:  /home/#/dataset/Helen5_validate
+  batchsize: 1
+
+
+device_ids: [0 , 1]
