@@ -3,7 +3,11 @@
 ## 🖼️ Architecture Visualization (Replace with your paper's main figure)
 
 <p align="center">
-  <img src=>
+  <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure1.pdf">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RHMC-Project/RHMC/blob/main/figure2.pdf">
 </p>
 
 @inproceedings{Lastname_2025_RHMC,
